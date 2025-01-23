@@ -21,20 +21,16 @@ Digite a operação desejada(0/1/2/3/4): """)
 
 
 def adicao(n1, n2):
-    resultado = n1 + n2
-    return resultado
-
+    return n1 + n2
+    
 def subtracao(n1, n2):
-    resultado = n1 - n2
-    return resultado
+    return n1 - n2
 
 def multiplicacao(n1, n2):
-    resultado = n1 * n2
-    return resultado
+    return n1 * n2
 
 def divisao(n1, n2):
-    resultado = n1 / n2
-    return resultado
+    return n1 / n2
 
 
 
@@ -42,6 +38,7 @@ while True:
     opcao = input(menu)
 
     if opcao == '0':
+        print("Saindo...")
         break
 
     elif opcao not in opcoes:
